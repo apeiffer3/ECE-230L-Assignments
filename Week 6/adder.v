@@ -9,6 +9,6 @@ module adder(
 );
 
 	assign Y = A ^ B;
-    assign Carry = A & B// Enter logic equation here
+    assign Carry = A & B;// Enter logic equation here
 
 endmodule
