@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/modCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module modulo_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/rCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/t_flipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_flipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
