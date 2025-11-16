@@ -14,8 +14,10 @@ In this lab, we learned how to make clock dividers from two types of counters.
 ## Lab Questions
 
 ### 1 - Why does the Modulo Counter actually divide clocks by 2 * Count?
+Has low for 6 cycles and high for 6 cycles.
 
-### 2 - Why does the ring counter's output go to all 1s on the first clock cycle?
+### 2 - Why does the ripple counter's output go to all 1s on the first clock cycle?
+In our ripple counter it all happens in the same clock cycle.
 
-### 3 - What width of ring counter would you use to get to an output of ~1KHz?
-
+### 3 - What width of ripple counter would you use to get to an output of ~1KHz?
+2^N=100000 the closest we get is with N=17, but if N could be a decimal perhaps N =16.61

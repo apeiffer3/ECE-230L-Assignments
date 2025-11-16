@@ -2,10 +2,11 @@
 2020.2
 May 22 2025
 00:13:55
+C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/d_flipflop.v,1763064740,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/full_adder.v,,d_flipflop,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
 C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/full_adder.v,1763061114,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/modCounter.v,,full_adder,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
-C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/modCounter.v,1763061114,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/rCounter.v,,modulo_counter,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/modCounter.v,1763064700,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/rCounter.v,,modulo_counter,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
 C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
-C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/rCounter.v,1763061114,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/t_flipflop.v,,ripple_counter,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
-C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/t_flipflop.v,1762457108,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/top.v,,t_flipflop,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
-C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/test.v,1763060590,verilog,,,,test,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
-C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/top.v,1763060590,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/test.v,,top,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/rCounter.v,1763064679,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/t_flipflop.v,,ripple_counter,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/t_flipflop.v,1763064724,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/top.v,,t_flipflop,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/test.v,1763061579,verilog,,,,test,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/top.v,1763064120,verilog,,C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/test.v,,top,,,../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,

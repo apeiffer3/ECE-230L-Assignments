@@ -12,6 +12,7 @@ Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.t_flipflop
 Compiling module xil_defaultlib.ripple_counter
 Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.d_flipflop
 Compiling module xil_defaultlib.modulo_counter
 Compiling module xil_defaultlib.top
 Compiling module xil_defaultlib.test

@@ -1,8 +1,1 @@
 Time resolution is 1 ps
-Starting simulation...
-Reset released.
-✅ Modulo counter passed first check
-✅ Ripple counter passed check
-✅ Modulo counter reset logic passed
-✅✅ All tests complete!
-$finish called at time : 43 ps : File "C:/Users/Alexander Peiffer/Documents/GitHub/ECE-230L-Assignments/week12/test.v" Line 68

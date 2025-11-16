@@ -6,7 +6,7 @@ module full_adder(
 	input Cin, 
 	output Y,
 	output Cout
-);// Implement module called full_adder
+);
 
 	assign Y = A ^ B ^ Cin;
 	

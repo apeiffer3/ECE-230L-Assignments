@@ -18,7 +18,7 @@ module top(
     modulo_counter MC (
         .clk(btnC),
         .rst(btnU),
-        .count(mc_state),
+        .state(mc_state),
         .out(mc_out)
     );
 
