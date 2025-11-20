@@ -21,8 +21,8 @@ module test();
             #1 clk = 0;
         end
     endtask
-
-    task automatic check_state_oh(input [2:0] expected_state, input expected_z);
+	
+	    task automatic check_state_oh(input [2:0] expected_state, input expected_z);
         begin
             if (z_onehot !== expected_z) begin
                 $display("FAILED OneHot Check. Expected output %b, found %b", expected_z, z_onehot);
