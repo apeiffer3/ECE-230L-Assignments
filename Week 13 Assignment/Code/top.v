@@ -1,5 +1,5 @@
 module top(
-    input sw,     // w (Connects directly to w_in)
+    input [0:0] sw,     // w (Connects directly to w_in)
     output [9:0] led, // Output LEDs [9:0]
     input btnC,   // clk
     input btnU    // reset
@@ -7,7 +7,7 @@ module top(
 
     // --- Internal Wires ---
     // The single 'sw' input serves as our 'w_in' for the FSMs
-    wire w_in = sw;
+    wire w_in = sw[0];
     
     wire clk_100m = btnC;
     wire reset_in = btnU;

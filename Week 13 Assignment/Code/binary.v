@@ -41,13 +41,13 @@ module binary (
 
     // --- Next State Logic (Combinational Assignments) ---
     // Y2 (Next MSB)
-    assign Next[2] = ( w & State[1] & State[0]) | ( w & State[2] & ~State[1] & ~State[0]);
+    assign Next[2] = (w & State[1] & State[0]) | (w & State[2] & ~State[1] & ~State[0]);
 
     // Y1 (Middle Bit)
-    assign Next[1] = (~w & State[1] & ~State[0]) | (~w & ~State[2] & State[0]) | (w & ~State[2] & ~State[0]);
+    assign Next[1] = (~w & ~State[2]) | (w & ~State[2] & ~State[0]);
 
     // Y0 (Next LSB)
-    assign Next[0] = (~w & ~State[1] & ~State[0]) | (~w & State[2] & ~State[1]) | (w & ~State[2] & ~State[1]);
+    assign Next[0] = (~w & ~State[1]) | (w & ~State[1] & ~State[0]);
 
     
     // --- Output Logic (Combinational - Moore Machine) ---
