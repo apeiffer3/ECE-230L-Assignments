@@ -1,0 +1,440 @@
+$date
+   Sun Nov 23 01:28:10 2025
+$end
+
+$version
+  2025.1.0
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module test $end
+$var reg 1 ! w $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$var wire 1 $ z_onehot $end
+$var wire 1 % z_binary $end
+$var wire 5 & onehot_actual [4:0] $end
+$var wire 3 ' binary_actual [2:0] $end
+$scope module uut $end
+$var wire 1 ( sw [0:0] $end
+$var wire 10 ) led [9:0] $end
+$var wire 1 * btnC $end
+$var wire 1 + btnU $end
+$var wire 1 , w_in $end
+$var wire 1 - clk $end
+$var wire 1 . reset_in $end
+$var wire 1 / z_oh $end
+$var wire 1 0 z_bin $end
+$var wire 5 1 state_oh [4:0] $end
+$var wire 3 2 state_bin [2:0] $end
+$scope module one_hot_inst $end
+$var wire 1 , w $end
+$var wire 1 - clk $end
+$var wire 1 . reset $end
+$var wire 1 / z $end
+$var wire 5 1 state_out [4:0] $end
+$var wire 1 3 Anext $end
+$var wire 1 4 Bnext $end
+$var wire 1 5 Cnext $end
+$var wire 1 6 Dnext $end
+$var wire 1 7 Enext $end
+$var wire 1 8 Astate $end
+$var wire 1 9 Bstate $end
+$var wire 1 : Cstate $end
+$var wire 1 ; Dstate $end
+$var wire 1 < Estate $end
+$scope module dff_A $end
+$var wire 1 = Default $end
+$var wire 1 3 D $end
+$var wire 1 - clk $end
+$var wire 1 . reset $end
+$var reg 1 > Q $end
+$upscope $end
+$scope module dff_B $end
+$var wire 1 ? Default $end
+$var wire 1 4 D $end
+$var wire 1 - clk $end
+$var wire 1 . reset $end
+$var reg 1 @ Q $end
+$upscope $end
+$scope module dff_C $end
+$var wire 1 A Default $end
+$var wire 1 5 D $end
+$var wire 1 - clk $end
+$var wire 1 . reset $end
+$var reg 1 B Q $end
+$upscope $end
+$scope module dff_D $end
+$var wire 1 C Default $end
+$var wire 1 6 D $end
+$var wire 1 - clk $end
+$var wire 1 . reset $end
+$var reg 1 D Q $end
+$upscope $end
+$scope module dff_E $end
+$var wire 1 E Default $end
+$var wire 1 7 D $end
+$var wire 1 - clk $end
+$var wire 1 . reset $end
+$var reg 1 F Q $end
+$upscope $end
+$upscope $end
+$scope module binary_inst $end
+$var wire 1 , w $end
+$var wire 1 - clk $end
+$var wire 1 . reset $end
+$var reg 1 G z $end
+$var wire 3 2 state_out [2:0] $end
+$var reg 3 H state [2:0] $end
+$var reg 3 I next [2:0] $end
+$upscope $end
+$upscope $end
+$scope task toggle_clock $end
+$upscope $end
+$scope task check_state_oh $end
+$upscope $end
+$scope task check_state_bn $end
+$upscope $end
+$scope task check_state $end
+$upscope $end
+$scope task do_reset $end
+$upscope $end
+$scope task next_state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+x#
+0$
+x%
+b1 &
+bx '
+0(
+bx00001x0 )
+0*
+x+
+0,
+0-
+x.
+0/
+x0
+b1 1
+bx 2
+03
+14
+05
+06
+07
+18
+09
+0:
+0;
+0<
+1=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+xG
+bx H
+b0 I
+$end
+
+#1000
+1#
+0%
+b0 '
+b100 )
+1+
+1.
+00
+b0 2
+0G
+b0 H
+b1 I
+
+#2000
+0#
+0+
+0.
+
+#3000
+1"
+b10 &
+b1 '
+b10001000 )
+1*
+1-
+b10 1
+b1 2
+04
+15
+08
+19
+0>
+1@
+b1 H
+b10 I
+
+#4000
+0"
+0*
+0-
+
+#5000
+1"
+1$
+1%
+b100 &
+b10 '
+b100010011 )
+1*
+1-
+1/
+10
+b100 1
+b10 2
+09
+1:
+0@
+1B
+1G
+b10 H
+
+#6000
+0"
+0*
+0-
+
+#7000
+1"
+1*
+1-
+
+#8000
+1!
+0"
+1(
+0*
+1,
+0-
+05
+16
+b11 I
+
+#9000
+1"
+0$
+0%
+b1000 &
+b11 '
+b110100000 )
+1*
+1-
+0/
+00
+b1000 1
+b11 2
+06
+17
+0:
+1;
+0B
+1D
+0G
+b11 H
+b100 I
+
+#10000
+0"
+0*
+0-
+
+#11000
+1"
+1$
+1%
+b10000 &
+b100 '
+b1001000011 )
+1*
+1-
+1/
+10
+b10000 1
+b100 2
+0;
+1<
+0D
+1F
+1G
+b100 H
+
+#12000
+0"
+0*
+0-
+
+#13000
+1"
+1*
+1-
+
+#14000
+0!
+0"
+0(
+0*
+0,
+0-
+14
+07
+b1 I
+
+#15000
+1"
+0$
+0%
+b10 &
+b1 '
+b10001000 )
+1*
+1-
+0/
+00
+b10 1
+b1 2
+04
+15
+19
+0<
+1@
+0F
+0G
+b1 H
+b10 I
+
+#16000
+1!
+0"
+1(
+0*
+1,
+0-
+05
+16
+b11 I
+
+#17000
+1"
+b1000 &
+b11 '
+b110100000 )
+1*
+1-
+b1000 1
+b11 2
+06
+17
+09
+1;
+0@
+1D
+b11 H
+b100 I
+
+#18000
+0!
+0"
+0(
+0*
+0,
+0-
+14
+07
+b1 I
+
+#19000
+1"
+b10 &
+b1 '
+b10001000 )
+1*
+1-
+b10 1
+b1 2
+04
+15
+19
+0;
+1@
+0D
+b1 H
+b10 I
+
+#20000
+0"
+0*
+0-
+
+#21000
+1#
+b1 &
+b0 '
+b100 )
+1+
+1.
+b1 1
+b0 2
+14
+05
+18
+09
+1>
+0@
+b0 H
+b1 I
+
+#22000
+1!
+0#
+1(
+0+
+1,
+0.
+04
+16
+b11 I
+
+#23000
+1"
+b1000 &
+b11 '
+b110100000 )
+1*
+1-
+b1000 1
+b11 2
+06
+17
+08
+1;
+0>
+1D
+b11 H
+b100 I
+
+#24000
+0"
